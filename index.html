@@ -9,18 +9,54 @@
   <body>
     <div class="container">
       <!-- Splash Screen -->
-      <div id="splash-screen" class="container">
-        <!-- <img src="" width="" alt="logo"> -->
-        <button id="start-btn">Start!</button>
+      <div id="splash-screen" class="screen">
+        <div id="title">
+          <h1>TO THE <br>SKY</h1>
+        </div>
+
+        <div id = "intro">
+          <div id = "instructions">
+
+              <h2>INSTRUCTIONS</h2>
+
+              <div id = "instructions-img">
+                  <img class = "arrows" src="Images/space-arrows.png" alt="Arrows">
+              </div>
+              
+          </div>
+          <button id="start-btn">START!</button>
       </div>
+      </div>
+
 
       <!-- Game Screen -->
       <canvas id="my-canvas" width="700" height="600"></canvas>
 
       <!-- Game Over Screen -->
-      <div id="gameover-screen" class="container">
-        <!-- <img src="" width="" alt="logo"> -->
-        <button id="restart-btn">Play Again!</button>
+      <div id="gameover-screen" class="screen">
+
+        <div class="izq">
+
+          <h1>GAME OVER</h1>
+
+
+          <button id="restart-btn">Play Again!</button>
+
+        </div>
+
+        <div class="der">
+
+          <h1>congrats...<h1>
+
+        
+              <li>alvaro; 100</li>
+              <li>sabela; 50</li>
+              <li>cook; 20</li>
+          
+
+        </div>
+      
+     
       </div>
     </div>
 
@@ -29,5 +65,6 @@
     <script src="./javascript/Nave.js"></script>
     <script src="./javascript/Slug.js"></script>
     <script src="./javascript/Meteoro.js"></script>
+    <script src="./javascript/Enemy.js"></script>
   </body>
 </html>
